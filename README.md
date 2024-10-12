@@ -17,7 +17,7 @@ The model was trained using features extracted from user activity data, and the 
 
 ### Prerequisites
 Make sure you have the following installed:
-- [Python 3.7+](https://www.python.org/downloads/)
+- [Python 3.11+](https://www.python.org/downloads/)
 - [pip](https://pip.pypa.io/en/stable/installation/)
 
 ### Steps
@@ -30,3 +30,20 @@ Make sure you have the following installed:
 2- Create a virtual environment (optional but recommended):
    python -m venv venv
    source venv/bin/activate  # On Windows use `.\venv\Scripts\activate`
+   
+3- Install required dependencies:
+   pip install -r requirements.txt
+   pip install streamlit scikit-learn joblib imbalanced-learn matplotlib seaborn
+
+## Running the Application
+   1. Run the app
+      streamlit run app.py
+   2. View the app in your browser: After running the above command, a local web server will start.
+   3.  You can access the app at http://localhost:8501
+
+
+
+
+
+
+
