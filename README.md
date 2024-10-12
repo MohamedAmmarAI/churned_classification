@@ -55,10 +55,9 @@ Make sure you have the following installed:
     └── waze_dataset.csv       # Dataset used for training the model (optional to include)
 
 ## Model Details
-
-Model Used: Random Forest Classifier
-Libraries: scikit-learn for model training and imbalanced-learn for handling class imbalance.
-Preprocessing:
+ - Model Used: Random Forest Classifier
+ - Libraries: scikit-learn for model training and imbalanced-learn for handling class imbalance.
+ - Preprocessing:
          - Features are normalized using StandardScaler.
          - PCA (Principal Component Analysis) is applied for dimensionality reduction.
          - SMOTE (Synthetic Minority Over-sampling Technique) is used to balance the training data.
