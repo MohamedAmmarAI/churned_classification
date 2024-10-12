@@ -44,14 +44,14 @@ Make sure you have the following installed:
 
 ## Project Structure
    user-churn-prediction-app/
-│
-├── - app.py                    # Streamlit app entry point
-├── - rf_model.pkl              # Pretrained Random Forest model (saved using joblib)
-├── - scaler.pkl                # Pretrained StandardScaler (for scaling input data)
-├── - pca.pkl                   # Pretrained PCA (for dimensionality reduction)
-├── - README.md                 # This README file
-├── - requirements.txt          # Python dependencies
-└── - data/
+
+ - app.py                    # Streamlit app entry point
+ - rf_model.pkl              # Pretrained Random Forest model (saved using joblib)
+ - scaler.pkl                # Pretrained StandardScaler (for scaling input data)
+ - pca.pkl                   # Pretrained PCA (for dimensionality reduction)
+ - README.md                 # This README file
+ - requirements.txt          # Python dependencies
+ - data/
     └── waze_dataset.csv       # Dataset used for training the model (optional to include)
 
 ## Model Details
