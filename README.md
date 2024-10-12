@@ -42,8 +42,33 @@ Make sure you have the following installed:
    3.  You can access the app at http://localhost:8501
 
 
+## Project Structure
+   user-churn-prediction-app/
+│
+├── app.py                    # Streamlit app entry point
+├── rf_model.pkl              # Pretrained Random Forest model (saved using joblib)
+├── scaler.pkl                # Pretrained StandardScaler (for scaling input data)
+├── pca.pkl                   # Pretrained PCA (for dimensionality reduction)
+├── README.md                 # This README file
+├── requirements.txt          # Python dependencies
+└── data/
+    └── waze_dataset.csv       # Dataset used for training the model (optional to include)
 
+## Model Details
 
+Model Used: Random Forest Classifier
+Libraries: scikit-learn for model training and imbalanced-learn for handling class imbalance.
+Preprocessing:
+         Features are normalized using StandardScaler.
+         PCA (Principal Component Analysis) is applied for dimensionality reduction.
+        SMOTE (Synthetic Minority Over-sampling Technique) is used to balance the training data.
+
+## Technologies Used
+ Programming Language: Python 3.7+
+ Machine Learning: scikit-learn, imbalanced-learn
+ Data Processing: pandas, numpy
+ Visualization: matplotlib, seaborn
+ Web Framework: Streamlit
 
 
 
