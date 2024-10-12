@@ -59,16 +59,16 @@ Make sure you have the following installed:
 Model Used: Random Forest Classifier
 Libraries: scikit-learn for model training and imbalanced-learn for handling class imbalance.
 Preprocessing:
-         Features are normalized using StandardScaler.
-         PCA (Principal Component Analysis) is applied for dimensionality reduction.
-        SMOTE (Synthetic Minority Over-sampling Technique) is used to balance the training data.
+         - Features are normalized using StandardScaler.
+         - PCA (Principal Component Analysis) is applied for dimensionality reduction.
+         - SMOTE (Synthetic Minority Over-sampling Technique) is used to balance the training data.
 
 ## Technologies Used
- Programming Language: Python 3.7+
- Machine Learning: scikit-learn, imbalanced-learn
- Data Processing: pandas, numpy
- Visualization: matplotlib, seaborn
- Web Framework: Streamlit
+ - Programming Language: Python 3.7+
+ - Machine Learning: scikit-learn, imbalanced-learn
+ - Data Processing: pandas, numpy
+ - Visualization: matplotlib, seaborn
+ - Web Framework: Streamlit
 
 
 
