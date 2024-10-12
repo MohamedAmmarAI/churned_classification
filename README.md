@@ -52,7 +52,7 @@ Make sure you have the following installed:
  - README.md                 # This README file
  - requirements.txt          # Python dependencies
  - data/
-    └── waze_dataset.csv       # Dataset used for training the model (optional to include)
+    └─waze_dataset.csv       # Dataset used for training the model (optional to include)
 
 ## Model Details
  - Model Used: Random Forest Classifier
