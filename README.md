@@ -13,3 +13,20 @@ The model was trained using features extracted from user activity data, and the 
 
 ![image](https://github.com/user-attachments/assets/77bbda52-adad-49bc-b409-3b95645dbefb)
 
+## Installation
+
+### Prerequisites
+Make sure you have the following installed:
+- [Python 3.7+](https://www.python.org/downloads/)
+- [pip](https://pip.pypa.io/en/stable/installation/)
+
+### Steps
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/MohamedAmmarAi/user-churn-prediction-app.git
+   cd user-churn-prediction-app
+
+2- Create a virtual environment (optional but recommended):
+   python -m venv venv
+   source venv/bin/activate  # On Windows use `.\venv\Scripts\activate`
