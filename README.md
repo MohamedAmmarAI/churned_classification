@@ -27,11 +27,11 @@ Make sure you have the following installed:
    git clone https://github.com/MohamedAmmarAi/user-churn-prediction-app.git
    cd user-churn-prediction-app
 
-2- Create a virtual environment (optional but recommended):
+2.  Create a virtual environment (optional but recommended):
    python -m venv venv
    source venv/bin/activate  # On Windows use `.\venv\Scripts\activate`
    
-3- Install required dependencies:
+3. Install required dependencies:
    pip install -r requirements.txt
    pip install streamlit scikit-learn joblib imbalanced-learn matplotlib seaborn
 
@@ -45,13 +45,13 @@ Make sure you have the following installed:
 ## Project Structure
    user-churn-prediction-app/
 │
-├── app.py                    # Streamlit app entry point
-├── rf_model.pkl              # Pretrained Random Forest model (saved using joblib)
-├── scaler.pkl                # Pretrained StandardScaler (for scaling input data)
-├── pca.pkl                   # Pretrained PCA (for dimensionality reduction)
-├── README.md                 # This README file
-├── requirements.txt          # Python dependencies
-└── data/
+├── - app.py                    # Streamlit app entry point
+├── - rf_model.pkl              # Pretrained Random Forest model (saved using joblib)
+├── - scaler.pkl                # Pretrained StandardScaler (for scaling input data)
+├── - pca.pkl                   # Pretrained PCA (for dimensionality reduction)
+├── - README.md                 # This README file
+├── - requirements.txt          # Python dependencies
+└── - data/
     └── waze_dataset.csv       # Dataset used for training the model (optional to include)
 
 ## Model Details
