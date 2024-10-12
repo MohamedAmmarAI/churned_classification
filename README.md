@@ -39,7 +39,7 @@ Make sure you have the following installed:
    1. Run the app
       streamlit run app.py
    2. View the app in your browser: After running the above command, a local web server will start.
-   3.  You can access the app at http://localhost:8501
+   3.  You can access the app at https://churnedclassification-9m3zxytx7iswnxlxxldoo2.streamlit.app/
 
 
 ## Project Structure
