@@ -63,7 +63,7 @@ Make sure you have the following installed:
          - SMOTE (Synthetic Minority Over-sampling Technique) is used to balance the training data.
 
 ## Technologies Used
- - Programming Language: Python 3.7+
+ - Programming Language: Python 3.11+
  - Machine Learning: scikit-learn, imbalanced-learn
  - Data Processing: pandas, numpy
  - Visualization: matplotlib, seaborn
